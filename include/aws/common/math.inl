@@ -48,7 +48,7 @@ AWS_EXTERN_C_BEGIN
 #    include <aws/common/math.gcc_builtin.inl>
 #endif
 
-#if _MSC_VER
+#if defined(_MSC_VER)
 #    pragma warning(push)
 #    pragma warning(disable : 4127) /*Disable "conditional expression is constant" */
 #endif                              /* _MSC_VER */
