@@ -39,7 +39,7 @@ AWS_EXTERN_C_BEGIN
 /*
  * We got here because we are building in C++ mode but we only support overflow extensions
  * in C mode. Because the fallback is _slow_ (involving a division), we'd prefer to make a
- * non-inline call to the fast C intrinsics. a
+ * non-inline call to the fast C intrinsics. asd
  */
 #    endif /*  AWS_HAVE_GCC_OVERFLOW_MATH_EXTENSIONS */
 #endif     /*  defined(AWS_HAVE_GCC_OVERFLOW_MATH_EXTENSIONS) && (defined(__clang__) || !defined(__cplusplus)) */
